@@ -2,8 +2,8 @@
 
 #Starting amount, used amount, defective, added,type of ball,remaining amount 
 #Table would be nice
-
-
+TRY USING LIBRARY AS DATA REPO, FIGURE OUT HOW TO RETRIEVE
+INITIAL BALL STOCK=88
 
 stock_seed= int (input('initial ball_stock? ' ))
 balls_sold= int  (input('number of balls sold? '))
