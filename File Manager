@@ -1,0 +1,5 @@
+'''simplified file manager move,copy,rename,sort,sweeps file heirachy occasionally
+maybe even copy to archive drives'''
+
+import os_path?
+import 

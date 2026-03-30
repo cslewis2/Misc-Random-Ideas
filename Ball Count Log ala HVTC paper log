@@ -1,0 +1,44 @@
+'''Ball count Ledger'''
+
+#Starting amount, used amount, defective, added,type of ball,remaining amount 
+#Table would be nice
+
+
+
+stock_seed= int (input('initial ball_stock? ' ))
+balls_sold= int  (input('number of balls sold? '))
+stocksum= stock_seed-balls_sold
+print (stocksum)
+#balls_used=stock_seed-balls_sold
+
+balls=['Prince','Wilson','Dunlop']
+
+def Prince():
+    stock_seed= int (input('initial ball_stock? ' ))
+    balls_sold= int  (input('number of balls sold? ')) 
+    stocksum= stock_seed-balls_sold
+    print (stocksum)
+    return stocksum
+
+# def Wilson():
+#     stock_seed= int (input('initial ball_stock? ' ))
+#     balls_sold= int  (input('number of balls sold? '))
+#     stocksum= stock_seed-balls_sold
+#     print (stocksum)
+#     return Wilson stocksum
+
+
+# def Dunlop():
+#     stock_seed= int (input('initial ball_stock? ' ))
+#     balls_sold= int (input('number of balls sold? '))
+#     return Dunlop stocksumstocksum
+
+class calcu:30
+stock_seed= int(input('initial ball_stock? ' ))
+balls_sold= int(input('number of balls sold? '))
+stocksum= stock_seed-balls_sold
+print(stocksum)
+
+Prince()
+calcu()
+#Prince()
